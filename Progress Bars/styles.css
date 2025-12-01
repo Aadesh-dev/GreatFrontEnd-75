@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+.progress-bars {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.progress-bars__track {
+  background-color: lightgray;
+}
+
+.progress-bars__track__bar {
+  height: 10px;
+  background-color: green;
+  animation: progress 2s linear forwards;
+}
+
+@keyframes progress {
+  0% { width: 0px; }
+  100% { width: 100%; }
+}

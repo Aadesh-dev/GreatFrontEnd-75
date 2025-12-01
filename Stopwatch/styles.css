@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
+.stopwatch-display {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+button {
+  cursor: pointer;
+  margin-right: 8px;
+  padding: 4px 10px;
+}
